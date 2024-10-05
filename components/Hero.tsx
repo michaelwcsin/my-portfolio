@@ -2,6 +2,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import AboutButton from "./ui/Button";
 import { BackgroundBeamsWithCollision } from "./ui/CollisionBeams";
 import { TextGenerateEffect } from "./ui/TextGenerate";
+import { FlipWords } from "./ui/WordChange";
 
 const Hero = () => {
   return (
@@ -15,10 +16,15 @@ const Hero = () => {
             words="Transforming Concepts into Seamless User Experiences"
             className="text-center"
           />
-          <p className="text-center md:tracking-wider mt-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m <span className="text-emerald-500">Michael Sin</span>,
-            a developer based in Canada.
-          </p>
+          <div className="text-center md:tracking-wider mt-4 text-sm md:text-lg lg:text-2xl">
+            Hi, I'm Michael Sin,
+            <span className="inline-block min-w-[215px] text-left">
+              {" "}
+              <FlipWords
+                words={["full-stack dev", "data enthusiast", "ui/ux fanatic"]}
+              />
+            </span>
+          </div>
           <a href="#about">
             <AboutButton
               title="About me"

@@ -5,7 +5,7 @@ export const Footer = () => {
     <footer className="w-full pt-10 pb-10" id="contact">
       <div className="w-full text-center pb-10">
         <p className="font-bold text-[20px]">
-          If you'd like to contact me get in touch!
+          Reach out to get to connect with me!
         </p>
       </div>
       <div className="flex justify-center">
