@@ -4,7 +4,10 @@ import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
 
 const About = () => {
   return (
-    <section id="about" className="min-h-screen">
+    <section
+      id="about"
+      className="flex min-h-screen items-center justify-center"
+    >
       <BentoGrid className="w-[60vw]">
         {gridItems.map((item, i) => (
           <BentoGridItem
