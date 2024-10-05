@@ -28,15 +28,15 @@ const config = {
     extend: {
       colors: {
         black: {
+          "100": "#000319",
+          "200": "rgba(17, 25, 40, 0.75)",
+          "300": "rgba(255, 255, 255, 0.125)",
           DEFAULT: "#000",
-          100: "#000319",
-          200: "rgba(17, 25, 40, 0.75)",
-          300: "rgba(255, 255, 255, 0.125)",
         },
         white: {
+          "100": "#BEC1DD",
+          "200": "#C1C2D3",
           DEFAULT: "#FFF",
-          100: "#BEC1DD",
-          200: "#C1C2D3",
         },
         blue: {
           "100": "#E4ECFF",
@@ -83,12 +83,20 @@ const config = {
       },
       keyframes: {
         "accordion-down": {
-          from: { height: "0" },
-          to: { height: "var(--radix-accordion-content-height)" },
+          from: {
+            height: "0",
+          },
+          to: {
+            height: "var(--radix-accordion-content-height)",
+          },
         },
         "accordion-up": {
-          from: { height: "var(--radix-accordion-content-height)" },
-          to: { height: "0" },
+          from: {
+            height: "var(--radix-accordion-content-height)",
+          },
+          to: {
+            height: "0",
+          },
         },
         spotlight: {
           "0%": {

@@ -1,6 +1,6 @@
 import { FaLocationArrow } from "react-icons/fa6";
-import AboutButton from "./ui/Button";
 import { BackgroundBeamsWithCollision } from "./ui/CollisionBeams";
+import AboutButton from "./ui/MagicButton";
 import { TextGenerateEffect } from "./ui/TextGenerate";
 import { FlipWords } from "./ui/WordChange";
 

@@ -3,6 +3,7 @@
 import About from "@/components/About";
 import { Footer } from "@/components/Footer";
 import Introduction from "@/components/Hero";
+import Projects from "@/components/Projects";
 import { TracingBeam } from "@/components/ui/TracingBeam";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
         <div className="w-full">
           <Introduction />
           <About />
+          <Projects />
           <Footer />
         </div>
       </TracingBeam>

@@ -10,11 +10,10 @@ Welcome to my page.
 TO-DO's:
 
 - Choose a different font.
-- Upload some photo or video of me into bento grid background.
-  - Dependent on bento grid, have to shift size of drops background.
 - Research different UI libraries and see what works best.
 - Upload worked on projects.
   - https://ui.mantine.dev/category/carousels/
   - https://magicui.design/docs/components/file-tree
   - https://magicui.design/docs/components/blur-fade
+  - Projects to include: - prospect - MINK - Course registration - Student data warehouse - Soccer analytics - Blockbuster
 - Put this on github.
