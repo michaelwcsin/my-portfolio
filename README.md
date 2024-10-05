@@ -12,5 +12,10 @@ TO-DO's:
 - Choose a different font.
 - Personalize Bento Grid more.
 - Research different UI libraries and see what works best.
+  - https://magicui.design/docs/components/icon-cloud (tech stack)
+  - https://magicui.design/docs/components/animated-beam (tech stack)
 - Upload worked on projects.
+  - https://ui.mantine.dev/category/carousels/
+  - https://magicui.design/docs/components/file-tree
+  - https://magicui.design/docs/components/blur-fade
 - Put this on github.
