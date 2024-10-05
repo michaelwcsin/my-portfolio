@@ -1,7 +1,7 @@
 import { IconCloud } from "@/components/ui/IconCloud";
 import { InfiniteMovingCards } from "@/components/ui/InfiniteMovingCards";
 
-// Icon Cloud
+// Icon Cloud (icons from SimpleIcon base)
 const slugs = [
   "python",
   "r",
@@ -35,22 +35,15 @@ const slugs = [
   "figma",
 ];
 
-// Infinite Moving Cards
-const techStack = [
+const background = [
   {
-    img: "/language.svg",
+    img: "/me_1.jpg",
   },
   {
-    img: "/webdev.svg",
+    img: "/me_2.jpg",
   },
   {
-    img: "/data.svg",
-  },
-  {
-    img: "/versioncontrol.svg",
-  },
-  {
-    img: "/dbms.svg",
+    img: "/me_3.jpg",
   },
 ];
 
@@ -58,10 +51,10 @@ export const gridItems = [
   {
     id: 1,
     title: "Background",
-    description:
-      "I am a recent graduate of Computer Science and have a passion for all things data & development. Outside of researching and learning new tools to develop my skill set, I love to exercise, fish, and golf.",
-    className:
-      "bg-red-400 lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    description: (
+      <InfiniteMovingCards items={background} direction="left" speed="normal" />
+    ),
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
     img: "/b1.svg",
@@ -82,8 +75,9 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "Currently looking for new  and exciting opportunities!",
-    description: "",
+    title: "",
+    description:
+      "I am a recent graduate with a Bachelor of Science in Computer Science and a minor in Mathematics. I am passionate about technology and its ability to transform visions, ideas, and data into products that positively impact society.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
