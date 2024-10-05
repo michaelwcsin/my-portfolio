@@ -11,5 +11,6 @@ TO-DO's:
 
 - Choose a different font.
 - Personalize Bento Grid more.
+- Research different UI libraries and see what works best.
 - Upload worked on projects.
 - Put this on github.
