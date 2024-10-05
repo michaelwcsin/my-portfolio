@@ -8,7 +8,7 @@ const About = () => {
       id="about"
       className="flex min-h-screen items-center justify-center"
     >
-      <BentoGrid className="w-[60vw]">
+      <BentoGrid className="w-[60vw] justify-center">
         {gridItems.map((item, i) => (
           <BentoGridItem
             id={item.id}
