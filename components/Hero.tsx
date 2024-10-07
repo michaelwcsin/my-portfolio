@@ -14,11 +14,11 @@ const Hero = () => {
           </p>
           <TextGenerateEffect
             words="Transforming Concepts into Seamless User Experiences"
-            className="text-center"
+            className="text-center font-extrabold"
           />
           <div className="text-center md:tracking-wider mt-4 text-sm md:text-lg lg:text-2xl">
             Hi, I'm Michael Sin,
-            <span className="inline-block min-w-[215px] text-left">
+            <span className="inline-block min-w-[215px]">
               {" "}
               <FlipWords
                 words={["full-stack dev", "data enthusiast", "ui/ux fanatic"]}
