@@ -47,9 +47,9 @@ const About = () => {
           <br></br>
           <FadeIn>
             <p className="font-bold text-sm md:text-xl">
-              "What we do in life,{" "}
-              <span className="text-emerald-500">echoes in eternity...</span> "
-              -{" "}
+              &quot;What we do in life,{" "}
+              <span className="text-emerald-500">echoes in eternity...</span>
+              &quot; -{" "}
               <span className="italic text-white">
                 Maximus Decimus Meridius
               </span>
