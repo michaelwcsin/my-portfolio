@@ -41,7 +41,7 @@ export interface ButtonProps
   asChild?: boolean;
 }
 
-const CaButton = React.forwardRef<HTMLButtonElement, ButtonProps>(
+const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, variant, size, asChild = false, ...props }, ref) => {
     const Comp = asChild ? Slot : "button";
     return (
@@ -53,6 +53,6 @@ const CaButton = React.forwardRef<HTMLButtonElement, ButtonProps>(
     );
   }
 );
-CaButton.displayName = "Button";
+Button.displayName = "Button";
 
-export { buttonVariants, CaButton };
+export { Button, buttonVariants };
