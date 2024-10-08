@@ -4,9 +4,7 @@ export const Footer = () => {
   return (
     <footer className="w-full pt-10 pb-10" id="contact">
       <div className="w-full text-center pb-10">
-        <p className="font-bold text-[20px]">
-          Reach out to get to connect with me!
-        </p>
+        <p className="font-bold text-[20px]">Reach out to connect with me!</p>
       </div>
       <div className="flex justify-center">
         <div className="flex items-center md:gap-10 gap-10">

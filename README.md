@@ -13,7 +13,5 @@ TO-DO's:
 - Research different UI libraries and see what works best.
 - Upload worked on projects.
   - https://ui.mantine.dev/category/carousels/
-  - https://magicui.design/docs/components/file-tree
-  - https://magicui.design/docs/components/blur-fade
   - Projects to include: - prospect - MINK - Course registration - Student data warehouse - Soccer analytics - Blockbuster
 - Put this on github.
