@@ -3,7 +3,11 @@ import { useInView } from "framer-motion";
 import React, { useRef } from "react";
 import { IconCloud } from "./ui/IconCloud";
 
-function FadeIn({ children }) {
+interface FadeInProps {
+  children: React.ReactNode;
+}
+
+function FadeIn({ children }: FadeInProps) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
