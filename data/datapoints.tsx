@@ -32,6 +32,10 @@ export const iconGlobe = [
   "visualstudiocode",
   "androidstudio",
   "figma",
+  "jupyter",
+  "ubuntu",
+  "windows",
+  "mac",
 ];
 
 // Data for projects
@@ -89,6 +93,16 @@ export const projectData = [
       <Badge variant="outline">Express</Badge>,
       <Badge variant="outline">React</Badge>,
       <Badge variant="outline">Node.js</Badge>,
+    ],
+  },
+  {
+    title: "ShiftSage",
+    description: "a kotlin mobile application that automates shift scheduling.",
+    content: "To be updated.",
+    footer: [
+      <Badge variant="outline">Kotlin</Badge>,
+      <Badge variant="outline">Android</Badge>,
+      <Badge variant="outline">SQLite</Badge>,
     ],
   },
   {

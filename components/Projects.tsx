@@ -35,7 +35,7 @@ const Projects = () => {
           opts={{ align: "start", loop: true }}
           className="max-w-3xl"
         >
-          <CarouselContent className="w-[55vw] md:w-[40vw]">
+          <CarouselContent className="w-[50vw] md:w-[40vw]">
             {projectData.map((card, index) => (
               <CarouselItem key={index} className="sd:basis-1 md:basis-1/2">
                 <div className="p-1">
