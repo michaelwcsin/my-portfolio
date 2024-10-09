@@ -22,21 +22,20 @@ import React from "react";
 const Projects = () => {
   return (
     <div className="flex flex-col justify-center items-center h-[60vh]">
-      <p className="text-lg font-bold">
-        Under Construction - For a live demo or more info please just contact
-        me.
+      <p className="text-sm font-bold md:text-lg w-[42vw] text-center">
+        Under Construction - For more info please contact me.
       </p>
-      <div className="w-[60vw] flex justify-center pt-5">
+      <div className="w-[70vw] md:w-[60vw] flex justify-center pt-2">
         <Carousel
           plugins={[
             Autoplay({
-              delay: 3000,
+              delay: 2500,
             }),
           ]}
           opts={{ align: "start", loop: true }}
           className="max-w-3xl"
         >
-          <CarouselContent className="w-[40vw]">
+          <CarouselContent className="w-[55vw] md:w-[40vw]">
             {projectData.map((card, index) => (
               <CarouselItem key={index} className="sd:basis-1 md:basis-1/2">
                 <div className="p-1">

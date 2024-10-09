@@ -71,7 +71,7 @@ const About = () => {
             </p>
           </FadeIn>
         </div>
-        <div className="mt-4 md:mt-0 md:ml-4">
+        <div className="mt-4 p-4 md:mt-0 md:ml-4">
           <FadeIn>
             <IconCloud iconSlugs={iconGlobe} />
           </FadeIn>

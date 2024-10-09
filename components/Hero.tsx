@@ -26,6 +26,7 @@ const Hero = () => {
             </span>
           </div>
           <a href="#about">
+            <br></br>
             <AboutButton
               title="About me"
               icon={<FaLocationArrow />}

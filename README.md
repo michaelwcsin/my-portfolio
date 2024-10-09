@@ -9,9 +9,13 @@ Welcome to my page.
 
 TO-DO's:
 
-- Choose a different font.
-- Research different UI libraries and see what works best.
 - Upload worked on projects.
   - https://ui.mantine.dev/category/carousels/
   - Projects to include: - prospect - MINK - Course registration - Student data warehouse - Soccer analytics - Blockbuster
-- Put this on github.
+- SD/mobile problems:
+  - textgenerate.tsx too big on sd, need text to be smaller or div to be bigger
+  - change about me to get smaller
+  - icon cloud to be smaller
+  - under construction text to be smaller
+  - carousel to be bigger
+  - contact icons smaller
