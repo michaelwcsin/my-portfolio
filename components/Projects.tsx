@@ -21,7 +21,7 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div className="flex flex-col justify-center items-center h-[60vh]">
+    <div className="flex flex-col justify-center items-center h-[70vh]">
       <p className="text-sm font-bold md:text-lg w-[42vw] text-center">
         Under Construction - For more info please contact me.
       </p>

@@ -44,8 +44,8 @@ const About = () => {
               Science based in Canada. My passion lies in exploring various
               branches of technology, from research, data analysis, and
               development. I enjoy immersing myself in different areas,
-              continually expanding my skill set and knowledge. You can see my
-              current tech world to the right.
+              continually expanding my skill set and knowledge. My current tech
+              world can be seen on the right.
             </p>
           </FadeIn>
           <br></br>
@@ -62,12 +62,9 @@ const About = () => {
           <br></br>
           <FadeIn>
             <p className="text-[2.5vw] md:text-[0.9vw]">
-              A quote that has always resonated deeply with me, and reflects the
-              guiding principles of how I approach my work. With the rapid
-              expansion of technology, our ability to shape the way we live,
-              work, and connect with one another has transformed dramatically.
-              This evolution empowers us to redefine possibilities, fostering
-              innovation and creativity in every aspect of our lives.
+              A quote that reflects the guiding principles of how I approach my
+              work and life in general: I believe in doing everything I can to
+              make a positive impact and make a lasting impression.
             </p>
           </FadeIn>
         </div>
