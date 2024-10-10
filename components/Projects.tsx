@@ -56,13 +56,6 @@ const Projects = () => {
           <CarouselPrevious />
           <CarouselNext />
         </Carousel>
-        <a
-          href={process.env.PUBLIC_URL + "/prospect_document.pdf"}
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <button>Pdf</button>
-        </a>
       </div>
     </div>
   );
