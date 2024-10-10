@@ -16,7 +16,6 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { projectData } from "@/data/datapoints";
-import Autoplay from "embla-carousel-autoplay";
 import React from "react";
 
 const Projects = () => {
@@ -26,15 +25,7 @@ const Projects = () => {
         Under Construction - For more info please contact me.
       </p>
       <div className="w-[70vw] md:w-[60vw] flex justify-center pt-2">
-        <Carousel
-          plugins={[
-            Autoplay({
-              delay: 2500,
-            }),
-          ]}
-          opts={{ align: "start", loop: true }}
-          className="max-w-3xl"
-        >
+        <Carousel opts={{ align: "start", loop: true }} className="max-w-3xl">
           <CarouselContent className="w-[50vw] md:w-[40vw]">
             {projectData.map((card, index) => (
               <CarouselItem key={index} className="sd:basis-1 md:basis-1/2">
