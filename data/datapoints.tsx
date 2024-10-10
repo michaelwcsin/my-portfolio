@@ -41,9 +41,18 @@ export const iconGlobe = [
 // Data for projects
 export const projectData = [
   {
-    title: "Prospect",
+    title: [
+      "Prospect ",
+      <a
+        href="https://mwcsin.vercel.app/prospect_document_sm.pdf"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <Badge>Open PDF</Badge>
+      </a>,
+    ],
     description:
-      "a full-stack web application that provides relevant data for home buyers/sellers in the Edmonton neighborhood.",
+      "a full-stack web application that provides relevant data for home buyers/sellers in the Edmonton neighborhood. Please click on Open PDF for more info.",
     content: (
       <img
         src="/prospect.svg"
@@ -64,8 +73,18 @@ export const projectData = [
     ],
   },
   {
-    title: "MINK",
-    description: "a full-stack food ordering web application.",
+    title: [
+      "MINK ",
+      <a
+        href="https://mwcsin.vercel.app/MINK_document.pdf"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <Badge>Open PDF</Badge>
+      </a>,
+    ],
+    description:
+      "a full-stack food ordering web application using MERN tech stack. This web-application has full CRUD operations allowing customers to order food items, as well as restaurant managers to update their menu. Please click on Open PDF for more info.",
     content: "To be updated.",
     footer: [
       <Badge variant="outline">MongoDO</Badge>,
