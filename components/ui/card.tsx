@@ -65,10 +65,7 @@ const CardContent = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <div
     ref={ref}
-    className={cn(
-      "p-2 flex flex-col gap-2 overflow-x-hidden overflow-y-hidden",
-      className
-    )}
+    className={cn("hidden md:block p-2 flex-col gap-2", className)}
     {...props}
   />
 ));

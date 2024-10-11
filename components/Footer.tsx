@@ -9,15 +9,16 @@ export const Footer = () => {
         </p>
       </div>
       <div className="flex justify-center">
-        <div className="flex items-center md:gap-10 gap-10">
+        <div className="flex items-center gap-10 md:gap-10">
           <a
+            className="w-8 h-8"
             href="https://github.com/michaelwcsin"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src="git.svg" alt="Description of image" />
           </a>
-          <a href="mailto:michael.wc.sin@gmail.com">
+          <a className="w-8 h-8" href="mailto:michael.wc.sin@gmail.com">
             <img src="/gmail.svg" />
           </a>
           <a
@@ -25,7 +26,11 @@ export const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/linkedin.svg" alt="Description of image" />
+            <img
+              className="w-8 h-8"
+              src="/linkedin.svg"
+              alt="Description of image"
+            />
           </a>
         </div>
       </div>
