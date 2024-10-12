@@ -17,11 +17,16 @@ const Hero = () => {
             className="text-center font-extrabold"
           />
           <div className="text-center md:tracking-wider mt-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m Michael Sin,
+            Hi! I&apos;m Michael Sin,
             <span className="inline-block min-w-[215px]">
               {" "}
               <FlipWords
-                words={["full-stack dev", "data enthusiast", "ui/ux fanatic"]}
+                words={[
+                  "full-stack dev",
+                  "data enthusiast",
+                  "ui/ux fanatic",
+                  "decent golfer",
+                ]}
               />
             </span>
           </div>
