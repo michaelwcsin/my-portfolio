@@ -22,7 +22,7 @@ const Projects = () => {
   return (
     <div className="flex flex-col justify-center items-center h-[70vh]">
       <p className="text-sm font-bold md:text-lg w-[42vw] text-center">
-        Under Construction - For more info please contact me.
+        Under Construction.
       </p>
       <div className="w-[70vw] md:w-[60vw] flex justify-center pt-2">
         <Carousel opts={{ align: "start", loop: true }} className="max-w-3xl">
@@ -35,7 +35,7 @@ const Projects = () => {
                       <CardTitle>{card.title}</CardTitle>
                       <CardDescription>{card.description}</CardDescription>
                     </CardHeader>
-                    <CardContent className="flex aspect-square items-center justify-center p-6">
+                    <CardContent className="flex aspect-square p-3">
                       {card.content}
                     </CardContent>
                     <CardFooter>{card.footer}</CardFooter>

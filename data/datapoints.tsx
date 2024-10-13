@@ -1,4 +1,10 @@
 import { Badge } from "@/components/ui/badge";
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
+import { VideoBadge } from "@/components/ui/video-badge";
 
 // Icon Cloud (icons from SimpleIcon base)
 export const iconGlobe = [
@@ -41,8 +47,8 @@ export const iconGlobe = [
 // Data for projects
 export const projectData = [
   {
-    title: [
-      "Prospect ",
+    title: "Prospect ",
+    description: [
       <a
         href="https://mwcsin.vercel.app/prospect_document_sm.pdf"
         rel="noopener noreferrer"
@@ -50,21 +56,17 @@ export const projectData = [
       >
         <Badge>Open PDF</Badge>
       </a>,
+      <Popover>
+        <PopoverTrigger asChild>
+          <VideoBadge>Open Demo</VideoBadge>
+        </PopoverTrigger>
+        <PopoverContent className="w-[60vw]">
+          <video src="/prospect.mp4" controls autoPlay></video>
+        </PopoverContent>
+      </Popover>,
     ],
-    description:
-      "a full-stack web application that provides relevant data for home buyers/sellers in the Edmonton neighborhood. Please click on Open PDF for more info.",
-    content: (
-      <img
-        src="/prospect.svg"
-        style={{
-          width: "100%",
-          height: "auto",
-          maxHeight: "300px",
-          objectFit: "contain",
-        }}
-        alt="Prospect"
-      />
-    ),
+    content:
+      "A full-stack web application that provides relevant data for home buyers/sellers in the Edmonton neighborhood. Please click on Open PDF for more info.",
     footer: [
       <Badge variant="outline">Python</Badge>,
       <Badge variant="outline">Django</Badge>,
@@ -73,8 +75,8 @@ export const projectData = [
     ],
   },
   {
-    title: [
-      "MINK ",
+    title: "MINK ",
+    description: [
       <a
         href="https://mwcsin.vercel.app/MINK_document.pdf"
         rel="noopener noreferrer"
@@ -82,22 +84,29 @@ export const projectData = [
       >
         <Badge>Open PDF</Badge>
       </a>,
+      <Popover>
+        <PopoverTrigger asChild>
+          <VideoBadge>Open Demo</VideoBadge>
+        </PopoverTrigger>
+        <PopoverContent className="w-[60vw]">
+          <video src="/mink.mp4" controls autoPlay></video>
+        </PopoverContent>
+      </Popover>,
     ],
-    description:
-      "a full-stack food ordering web application using MERN tech stack. This web-application has full CRUD operations allowing customers to order food items, as well as restaurant managers to update their menu. Please click on Open PDF for more info.",
-    content: "To be updated.",
+    content:
+      "A full-stack food ordering web application using MERN tech stack. This web-application has full CRUD operations allowing customers to order food items, as well as restaurant managers to update their menu. Current working on mink-v2.",
     footer: [
-      <Badge variant="outline">MongoDO</Badge>,
+      <Badge variant="outline">MongoDB</Badge>,
       <Badge variant="outline">Express</Badge>,
       <Badge variant="outline">React</Badge>,
       <Badge variant="outline">Node.js</Badge>,
     ],
   },
   {
-    title: "Student Data Warehouse",
-    description:
-      "a desktop data warehouse containing information on students, professors, courses, etc.",
-    content: "To be updated.",
+    title: "Data Warehouse",
+    description: "",
+    content:
+      "A desktop data warehouse containing information on students, professors, courses, etc. This project contains using stored procedures, views, as well as StringBuilder queries in order to create drill-down and roll-down operations. Demo coming soon.",
     footer: [
       <Badge variant="outline">MS SQL</Badge>,
       <Badge variant="outline">C#</Badge>,
@@ -105,8 +114,9 @@ export const projectData = [
   },
   {
     title: "Course Registration",
-    description: "a web application in order to register for courses.",
-    content: "To be updated.",
+    description: "",
+    content:
+      "A simple web application for students to order to register for courses. Features include updating students course database, as well as pop-up messages for duplicate classes already taken. Demo coming soon.",
     footer: [
       <Badge variant="outline">MongoDB</Badge>,
       <Badge variant="outline">Express</Badge>,
@@ -116,8 +126,9 @@ export const projectData = [
   },
   {
     title: "ShiftSage",
-    description: "a kotlin mobile application that automates shift scheduling.",
-    content: "To be updated.",
+    description: "",
+    content:
+      "An Android mobile application using Kotlin that automates shift scheduling. Built in order to cut down the amount of time managers spend creating shift schedules. Demo coming soon.",
     footer: [
       <Badge variant="outline">Kotlin</Badge>,
       <Badge variant="outline">Android</Badge>,
@@ -126,8 +137,8 @@ export const projectData = [
   },
   {
     title: "Soccer Analytics",
-    description: "analytics about FIFA league and win percentages.",
-    content: "To be updated.",
+    description: "",
+    content: "Analytics about FIFA league and win percentages.",
     footer: [
       <Badge variant="outline">RStudio</Badge>,
       <Badge variant="outline">Jupyter</Badge>,
@@ -135,8 +146,9 @@ export const projectData = [
   },
   {
     title: "Blockbuster",
-    description: "desktop application to rent movies.",
-    content: "To be updated.",
+    description: "",
+    content:
+      "Desktop application to rent movies. This application replicates closely the system that might've been used for Blockbusters, which creates/edits customers, details number of movie copies in-store, as well as checking out a film. Demo coming soon.",
     footer: [
       <Badge variant="outline">MS SQL</Badge>,
       <Badge variant="outline">C#</Badge>,
@@ -144,8 +156,8 @@ export const projectData = [
   },
   {
     title: "My First Portfolio",
-    description: "my very first portfolio using html/css.",
-    content: "To be updated.",
+    description: "",
+    content: "my very first portfolio using html/css.",
     footer: [
       <Badge variant="outline">HTML</Badge>,
       <Badge variant="outline">CSS</Badge>,
