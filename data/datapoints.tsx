@@ -114,9 +114,18 @@ export const projectData = [
   },
   {
     title: "Course Registration",
-    description: "",
+    description: (
+      <Popover>
+        <PopoverTrigger asChild>
+          <VideoBadge>Open Demo</VideoBadge>
+        </PopoverTrigger>
+        <PopoverContent className="w-[60vw]">
+          <video src="/course_registration.mp4" controls autoPlay></video>
+        </PopoverContent>
+      </Popover>
+    ),
     content:
-      "A simple web application for students to order to register for courses. Features include updating students course database, as well as pop-up messages for duplicate classes already taken. Demo coming soon.",
+      "My very first simple full-stack application where students can register for courses. Features include updating students course database, as well as pop-up messages for duplicate classes and time conflicts.",
     footer: [
       <Badge variant="outline">MongoDB</Badge>,
       <Badge variant="outline">Express</Badge>,
