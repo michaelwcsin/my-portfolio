@@ -66,7 +66,7 @@ export const projectData = [
       </a>,
       <Dialog>
         <DialogTrigger>
-          <VideoBadge>Open Video</VideoBadge>
+          <VideoBadge>Open Demo</VideoBadge>
         </DialogTrigger>
         <DialogContent>
           <video src="/prospect.mp4" controls autoPlay></video>
@@ -94,7 +94,7 @@ export const projectData = [
       </a>,
       <Dialog>
         <DialogTrigger>
-          <VideoBadge>Open Video</VideoBadge>
+          <VideoBadge>Open Demo</VideoBadge>
         </DialogTrigger>
         <DialogContent>
           <video src="/mink.mp4" controls autoPlay></video>
@@ -123,14 +123,14 @@ export const projectData = [
   {
     title: "Course Registration",
     description: (
-      <Popover>
-        <PopoverTrigger asChild>
+      <Dialog>
+        <DialogTrigger>
           <VideoBadge>Open Demo</VideoBadge>
-        </PopoverTrigger>
-        <PopoverContent className="w-[60vw]">
+        </DialogTrigger>
+        <DialogContent>
           <video src="/course_registration.mp4" controls autoPlay></video>
-        </PopoverContent>
-      </Popover>
+        </DialogContent>
+      </Dialog>
     ),
     content:
       "My very first simple full-stack application where students can register for courses. Features include updating students course database, as well as pop-up messages for duplicate classes and time conflicts.",
