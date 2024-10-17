@@ -1,5 +1,13 @@
 import { Badge } from "@/components/ui/badge";
 import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
+import {
   Popover,
   PopoverContent,
   PopoverTrigger,
@@ -56,14 +64,14 @@ export const projectData = [
       >
         <Badge>Open PDF</Badge>
       </a>,
-      <Popover>
-        <PopoverTrigger asChild>
-          <VideoBadge>Open Demo</VideoBadge>
-        </PopoverTrigger>
-        <PopoverContent className="w-[60vw]">
+      <Dialog>
+        <DialogTrigger>
+          <VideoBadge>Open Video</VideoBadge>
+        </DialogTrigger>
+        <DialogContent>
           <video src="/prospect.mp4" controls autoPlay></video>
-        </PopoverContent>
-      </Popover>,
+        </DialogContent>
+      </Dialog>,
     ],
     content:
       "A full-stack web application that provides relevant data for home buyers/sellers in the Edmonton neighborhood. Please click on Open PDF for more info.",
@@ -84,14 +92,14 @@ export const projectData = [
       >
         <Badge>Open PDF</Badge>
       </a>,
-      <Popover>
-        <PopoverTrigger asChild>
-          <VideoBadge>Open Demo</VideoBadge>
-        </PopoverTrigger>
-        <PopoverContent className="w-[60vw]">
+      <Dialog>
+        <DialogTrigger>
+          <VideoBadge>Open Video</VideoBadge>
+        </DialogTrigger>
+        <DialogContent>
           <video src="/mink.mp4" controls autoPlay></video>
-        </PopoverContent>
-      </Popover>,
+        </DialogContent>
+      </Dialog>,
     ],
     content:
       "A full-stack food ordering web application using MERN tech stack. This web-application has full CRUD operations allowing customers to order food items, as well as restaurant managers to update their menu. Current working on mink-v2 to include features: TypeScript, OAuth2, better UI/UX.",
