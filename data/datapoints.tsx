@@ -112,9 +112,18 @@ export const projectData = [
   },
   {
     title: "Data Warehouse",
-    description: "",
+    description: (
+      <Dialog>
+        <DialogTrigger>
+          <VideoBadge>Open Demo</VideoBadge>
+        </DialogTrigger>
+        <DialogContent>
+          <video src="/data_warehouse.mp4" controls autoPlay></video>
+        </DialogContent>
+      </Dialog>
+    ),
     content:
-      "A desktop data warehouse containing information on students, professors, courses, etc. This project contains using stored procedures, views, as well as StringBuilder queries in order to create drill-down and roll-down operations. Demo coming soon.",
+      "A desktop data warehouse containing information on students, professors, courses, etc. This project contains using stored procedures, views, as well as StringBuilder queries in order to create drill-down and roll-down operations.",
     footer: [
       <Badge variant="outline">MS SQL</Badge>,
       <Badge variant="outline">C#</Badge>,
@@ -155,7 +164,8 @@ export const projectData = [
   {
     title: "Soccer Analytics",
     description: "",
-    content: "Analytics about FIFA league and win percentages.",
+    content:
+      "Analytics about FIFA league and win percentage predictions using statistics of goals made during the first-half.",
     footer: [
       <Badge variant="outline">RStudio</Badge>,
       <Badge variant="outline">Jupyter</Badge>,
@@ -163,21 +173,21 @@ export const projectData = [
   },
   {
     title: "Blockbuster",
-    description: "",
+    description: (
+      <Dialog>
+        <DialogTrigger>
+          <VideoBadge>Open Demo</VideoBadge>
+        </DialogTrigger>
+        <DialogContent>
+          <video src="/blockbuster.mp4" controls autoPlay></video>
+        </DialogContent>
+      </Dialog>
+    ),
     content:
-      "Desktop application to rent movies. This application replicates closely the system that might've been used for Blockbusters, which creates/edits customers, details number of movie copies in-store, as well as checking out a film. Demo coming soon.",
+      "Desktop application to rent movies. This application replicates closely the system that might've been used for Blockbusters, which creates/edits customers, details number of movie copies in-store, as well as checking out a film.",
     footer: [
       <Badge variant="outline">MS SQL</Badge>,
       <Badge variant="outline">C#</Badge>,
-    ],
-  },
-  {
-    title: "My First Portfolio",
-    description: "",
-    content: "my very first portfolio using html/css.",
-    footer: [
-      <Badge variant="outline">HTML</Badge>,
-      <Badge variant="outline">CSS</Badge>,
     ],
   },
 ];
