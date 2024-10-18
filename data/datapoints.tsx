@@ -102,7 +102,7 @@ export const projectData = [
       </Dialog>,
     ],
     content:
-      "A full-stack food ordering web application using MERN tech stack. This web-application has full CRUD operations allowing customers to order food items, as well as restaurant managers to update their menu. Current working on mink-v2 to include features: TypeScript, OAuth2, better UI/UX.",
+      "A full-stack food ordering web application using MERN tech stack. This web-application has full CRUD operations allowing customers to order food items, as well as restaurant managers to update their menu.",
     footer: [
       <Badge variant="outline">MongoDB</Badge>,
       <Badge variant="outline">Express</Badge>,
