@@ -17,10 +17,16 @@ import {
 } from "@/components/ui/carousel";
 import { projectData } from "@/data/datapoints";
 import React from "react";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "./ui/accordion";
 
 const Projects = () => {
   return (
-    <div className="flex flex-col justify-center items-center h-[70vh]">
+    <div className="flex flex-col justify-center items-center h-screen">
       <p className="text-sm font-bold md:text-lg w-[42vw] text-center">
         Under Construction.
       </p>
@@ -47,6 +53,33 @@ const Projects = () => {
           <CarouselPrevious />
           <CarouselNext />
         </Carousel>
+      </div>
+      <div className="flex flex-col justify-center items-center w-full h-full">
+        <p className="text-sm font-bold md:text-lg w-[42vw] text-center">
+          Current works in progress.
+        </p>
+        <Accordion type="single" collapsible className="w-[30vw]">
+          <AccordionItem value="item-1">
+            <AccordionTrigger>MINK v2.0</AccordionTrigger>
+            <AccordionContent>
+              Update to MINK to include new features such as: TypeScript,
+              TanStack, OAuth2.0, and UI/UX.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-2">
+            <AccordionTrigger>Kaggle Certificates</AccordionTrigger>
+            <AccordionContent>
+              Working on completing all Kaggle certificates, to master data
+              analytics/science further.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-3">
+            <AccordionTrigger>Data Structures & Algorithms</AccordionTrigger>
+            <AccordionContent>
+              Review of data structures & algorithms.
+            </AccordionContent>
+          </AccordionItem>
+        </Accordion>
       </div>
     </div>
   );
